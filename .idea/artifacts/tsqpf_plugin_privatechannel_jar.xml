@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tsqpf-plugin-privatechannel:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tsqpf_plugin_privatechannel_jar</output-path>
+    <root id="archive" name="tsqpf-plugin-privatechannel.jar">
+      <element id="module-output" name="tsqpf-plugin-privatechannel" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/prerequisites/TSQPF_Api.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
