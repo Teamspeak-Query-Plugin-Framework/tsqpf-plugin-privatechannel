@@ -3,7 +3,8 @@ import net.vortexdata.tsqpf.modules.*;
 
 public class PluginMain extends PluginInterface {
 
-    private CommandManager commandManager = new CommandManager();
+    private CommandManager commandManager;
+    private ConfigManager configManager;
 
     @Override
     public String getName() {
@@ -12,8 +13,14 @@ public class PluginMain extends PluginInterface {
 
     @Override
     public void onEnable() {
+
+        // Get ConfigManager
+        configManager = new ConfigManager(getConfig());
+        configManager.load();
+
+        commandManager = new CommandManager(configManager);
+
         getLogger().printInfo("PrivateChannel enabled.");
-        getContainer().getPluginConfig().setDefault("test", "testValue");
     }
 
     @Override
