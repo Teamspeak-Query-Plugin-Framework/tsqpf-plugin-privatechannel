@@ -15,6 +15,9 @@ A plugin for the Teamspeak Query Plugin Framework which allows users to create t
 - Teamspeak Query Plugin Framework
 - Java 8
 
+#### Plugins
+- [WelcomeMessage](https://projects.vortexdata.net/tsq-plugin-framework/plugins/welcomemessage)
+
 ### Download
 
    Download the latest release from [our website](https://projects.vortexdata.net/tsq-plugin-framework/plugins/privatechannel).
