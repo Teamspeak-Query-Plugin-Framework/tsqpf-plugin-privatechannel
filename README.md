@@ -26,4 +26,8 @@ A plugin for the Teamspeak Query Plugin Framework which allows users to create t
 
    Copy "PrivateChannel.jar" to the plugin folder and reload / restart the framework.
    
-   The framework will generate the plugin directory with a plugin.conf file.
+   The framework will generate the plugin directory with a plugin.conf file. Before using it, please check this file and adjust the values to fit your server.
+
+### Usage
+
+   Connect to your Teamspeak server, open the frameworks chat window and send '!channel' message to it. You will receive a syntax notice. 
