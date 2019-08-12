@@ -20,12 +20,16 @@ public class CommandManager {
                 channelProperties.put(ChannelProperty.CHANNEL_DESCRIPTION, "This is a private channel. You need to ask the channels owner for the password.");
                 channelProperties.put(ChannelProperty.CHANNEL_CODEC_QUALITY, "6");
                 channelProperties.put(ChannelProperty.CHANNEL_PASSWORD, command[1]);
-                channelProperties.put(ChannelProperty.CPID, "1");
+                channelProperties.put(ChannelProperty.CPID, "2");
 
-                int newChannelId = api.createChannel(textMessageEvent.getInvokerName() + "'s Private Channel", channelProperties);
-                api.sendPrivateMessage(textMessageEvent.getInvokerId(), "Private channel created. Moving you now...");
-                api.moveClient(textMessageEvent.getInvokerId(), newChannelId);
-                api.moveClient(api.whoAmI().getId(), 1);
+                try {
+                    int newChannelId = api.createChannel(textMessageEvent.getInvokerName() + "'s Private Channel", channelProperties);
+                    api.sendPrivateMessage(textMessageEvent.getInvokerId(), "Private channel created. Moving you now...");
+                    api.moveClient(textMessageEvent.getInvokerId(), newChannelId);
+                } catch (Exception e) {
+                    api.sendPrivateMessage(textMessageEvent.getInvokerId(), "Sorry, but I could not create your channel. Maybe you already have one created?");
+                }
+
 
             } else {
                 // Print Syntax Header
