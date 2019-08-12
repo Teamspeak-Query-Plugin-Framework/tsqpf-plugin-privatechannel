@@ -30,4 +30,4 @@ A plugin for the Teamspeak Query Plugin Framework which allows users to create t
 
 ### Usage
 
-   Connect to your Teamspeak server, open the frameworks chat window and send '!channel' message to it. You will receive a syntax notice. 
+   Connect to your Teamspeak server, open the frameworks chat window and send '!channel'. You will receive a syntax notice. If you want to create a channel use '!channel <password>'. 
