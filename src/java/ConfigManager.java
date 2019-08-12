@@ -9,7 +9,7 @@ public class ConfigManager {
 
     public ConfigManager(PluginConfig config) {
         defaultValues = new HashMap<>();
-        defaultValues.put("messageChannelSyntax", "To create a private channel, please use to following command: !channel <password>");
+        defaultValues.put("messageChannelSyntax", "To create a private channel, please use '!channel <password>'");
         defaultValues.put("messageChannelCreationSuccess", "Channel created! I'm moving you now...");
         defaultValues.put("messageChannelCreationFailedUnknown", "Sorry, but something went wrong. I'm currently unable to create your channel. Please try again later.");
         defaultValues.put("messageChannelCreationFailedGroup", "Sorry, but it seems like you don't have permissions to create a private channel.");
@@ -36,6 +36,7 @@ public class ConfigManager {
     }
 
     private void createConfig(Object[] keys) {
+        config.clear();
 
         for (int i = 0; i < keys.length; i++) {
             config.setDefault(keys[i].toString(), defaultValues.get(keys[i].toString()));
