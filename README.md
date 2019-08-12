@@ -1,7 +1,7 @@
 # Private Channel Plugin for TSQPF
 **Current Version:** _0.0.1 (unstable - not tested)_
 
-A java-based plugin framework for Teamspeak 3 servers.
+A plugin for the Teamspeak Query Plugin Framework which allows users to create temporary channels.
 
 ## Features
 - Allows users to create private temporary channel easily
