@@ -4,7 +4,7 @@
 A plugin for the Teamspeak Query Plugin Framework which allows users to create temporary channels.
 
 ## Features
-- Allows users to create private temporary channel easily
+- Allows users to create private temporary channels easily
 - Integrated permission system
 
 ## Getting Started
