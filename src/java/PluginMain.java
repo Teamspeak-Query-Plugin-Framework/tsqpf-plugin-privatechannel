@@ -32,9 +32,4 @@ public class PluginMain extends PluginInterface {
     public void onTextMessage(TextMessageEvent textMessageEvent) {
         commandManager.evaluateCommand(textMessageEvent, getAPI());
     }
-
-    @Override
-    public void onClientJoin(ClientJoinEvent clientJoinEvent) {
-        getAPI().sendPrivateMessage(clientJoinEvent.getClientId(), "Hello");
-    }
 }
