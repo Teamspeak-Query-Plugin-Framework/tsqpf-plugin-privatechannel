@@ -14,7 +14,7 @@ A plugin for the Teamspeak Query Plugin Framework which allows users to create t
 - Java 8
 
 #### Plugins
-- WelcomeMessage([repository](https://github.com/Vortexdata/tsqpf-plugin-welcomemessage))
+- WelcomeMessage ([repository](https://github.com/Vortexdata/tsqpf-plugin-welcomemessage))
 
 ### Download
 
