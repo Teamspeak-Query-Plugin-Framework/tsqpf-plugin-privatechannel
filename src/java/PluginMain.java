@@ -20,7 +20,7 @@ public class PluginMain extends PluginInterface {
 
         commandManager = new CommandManager(configManager);
 
-        getLogger().printInfo("PrivateChannel enabled.");
+        getLogger().printInfo("PrivateChannel loaded.");
     }
 
     @Override
