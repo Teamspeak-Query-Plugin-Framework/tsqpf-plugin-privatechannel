@@ -31,7 +31,7 @@ public class CommandManager {
                     api.sendPrivateMessage(textMessageEvent.getInvokerId(), configManager.getValue("messageChannelCreationSuccess"));
                     api.moveClient(textMessageEvent.getInvokerId(), newChannelId);
                     // Move API back to default channel
-                    api.moveClient(api.whoAmI().getId(), 1);
+                    api.moveClient(api.whoAmI().getId(), Integer.parseInt(configManager.getValue("channelDefaultId")));
                 } catch (Exception e) {
                     api.sendPrivateMessage(textMessageEvent.getInvokerId(), configManager.getValue("messageChannelCreationFailedExisting"));
                 }
