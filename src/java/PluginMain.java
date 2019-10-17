@@ -4,7 +4,6 @@ import net.vortexdata.tsqpf.modules.*;
 
 public class PluginMain extends PluginInterface {
 
-    private CommandManager commandManager;
     private ConfigManager configManager;
 
     @Override

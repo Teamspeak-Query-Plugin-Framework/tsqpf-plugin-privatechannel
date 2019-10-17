@@ -7,13 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e041a25b-a9e7-4a96-ac2c-a94097fe9551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/tsqpf_2_0_0_mint_api_rc_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/tsqpf-2.0.0-mint-api-rc-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/ChannelCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/TSQPF_Api.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tsqpf-plugin-privatechannel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tsqpf-plugin-privatechannel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/CommandManager.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/PluginMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/PluginMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +81,7 @@
       <workItem from="1565720591877" duration="1016000" />
       <workItem from="1565800049911" duration="1566000" />
       <workItem from="1565801729334" duration="1000" />
-      <workItem from="1571294782982" duration="1117000" />
+      <workItem from="1571294782982" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1565556897611</created>
@@ -165,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565801593683</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Preparing conversion for 2.0.0 Mint">
+      <created>1571303099834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571303099834</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +195,8 @@
     <MESSAGE value="Updated to TSQPF version 1.0.1" />
     <MESSAGE value="Changed load message" />
     <MESSAGE value="Fixed default channel not being loaded from config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed default channel not being loaded from config file" />
+    <MESSAGE value="Preparing conversion for 2.0.0 Mint" />
+    <MESSAGE value="Removed CommandManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed CommandManager" />
   </component>
 </project>
