@@ -1,4 +1,5 @@
 import com.github.theholywaffle.teamspeak3.api.event.*;
+import net.vortexdata.tsqpf.listeners.ChatCommandInterface;
 import net.vortexdata.tsqpf.modules.*;
 
 public class PluginMain extends PluginInterface {
@@ -14,12 +15,14 @@ public class PluginMain extends PluginInterface {
     @Override
     public void onEnable() {
 
-        // Get ConfigManager
+        // Load the plugins config
         configManager = new ConfigManager(getConfig());
         configManager.load();
 
-        commandManager = new CommandManager(configManager);
+        // Register channel command
+        registerChatCommand(new ChannelCommand(getAPI(), configManager), "!channel");
 
+        // Inform user that the plugin has been loaded.
         getLogger().printInfo("PrivateChannel loaded.");
     }
 
@@ -29,7 +32,8 @@ public class PluginMain extends PluginInterface {
     }
 
     @Override
-    public void onTextMessage(TextMessageEvent textMessageEvent) {
-        commandManager.evaluateCommand(textMessageEvent, getAPI());
+    protected void registerChatCommand(ChatCommandInterface cmd, String txt) {
+        super.registerChatCommand(cmd, txt);
     }
+
 }

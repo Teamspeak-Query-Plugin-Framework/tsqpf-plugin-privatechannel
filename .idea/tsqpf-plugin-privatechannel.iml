@@ -7,6 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="TSQPF_Api" level="project" />
+    <orderEntry type="library" name="tsqpf-2.0.0-mint-api-rc-1" level="project" />
   </component>
 </module>
