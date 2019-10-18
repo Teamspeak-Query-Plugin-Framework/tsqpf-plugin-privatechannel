@@ -7,16 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e041a25b-a9e7-4a96-ac2c-a94097fe9551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/net_vortexdata_tsqpf_api_2_0_0_preview.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/tsqpf_2_0_0_mint_api_rc_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tsqpf-plugin-privatechannel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tsqpf-plugin-privatechannel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/tsqpf_plugin_privatechannel_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/tsqpf_plugin_privatechannel_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/tsqpf-2.0.0-mint-api-rc-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ChannelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/ChannelCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/ConfigManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/PluginMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,44 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/ChannelCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/ConfigManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,11 +101,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571416561483" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571417232024" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/net.vortexdata.tsqpf-api-2.0.0-preview.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14746094" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -192,7 +147,7 @@
       <workItem from="1565800049911" duration="1566000" />
       <workItem from="1565801729334" duration="1000" />
       <workItem from="1571294782982" duration="1193000" />
-      <workItem from="1571415185751" duration="1208000" />
+      <workItem from="1571415185751" duration="2031000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1565556897611</created>
@@ -278,15 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571303099834</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Preparing for 2.0.0 Mint release">
+      <created>1571416581249</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571416581249</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1835000" />
+    <option name="totallyTimeSpent" value="2658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22707888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -367,17 +328,11 @@
     <MESSAGE value="Fixed default channel not being loaded from config file" />
     <MESSAGE value="Preparing conversion for 2.0.0 Mint" />
     <MESSAGE value="Removed CommandManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed CommandManager" />
+    <MESSAGE value="Preparing for 2.0.0 Mint release" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing for 2.0.0 Mint release" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/ConfigManager.java">
+    <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -391,7 +346,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/java/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/net/vortexdata/tsqpfp/privatechannel/ConfigManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
