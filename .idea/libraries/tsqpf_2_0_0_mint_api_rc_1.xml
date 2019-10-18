@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="tsqpf-2.0.0-mint-api-rc-1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/tsqpf-2.0.0-mint-api-rc-1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

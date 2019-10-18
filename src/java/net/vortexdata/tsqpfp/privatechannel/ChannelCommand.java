@@ -1,3 +1,5 @@
+package net.vortexdata.tsqpfp.privatechannel;
+
 import com.github.theholywaffle.teamspeak3.TS3Api;
 import com.github.theholywaffle.teamspeak3.api.ChannelProperty;
 import com.github.theholywaffle.teamspeak3.api.event.TextMessageEvent;

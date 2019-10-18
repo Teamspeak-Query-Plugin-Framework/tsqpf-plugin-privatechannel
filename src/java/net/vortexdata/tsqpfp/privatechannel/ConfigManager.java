@@ -1,6 +1,6 @@
-import net.vortexdata.tsqpf.modules.*;
+package net.vortexdata.tsqpfp.privatechannel;
 
-import java.util.*;
+import net.vortexdata.tsqpf.plugins.*;
 
 public class ConfigManager {
 
