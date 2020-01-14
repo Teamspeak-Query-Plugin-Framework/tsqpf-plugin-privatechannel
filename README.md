@@ -31,7 +31,7 @@ KEY | DATATYPE | DESCRIPTION
 
 ## 📁 Directory Tree
 
-AntiAFK/<br>
+PrivateChannel/<br>
 └── plugin.conf<br>
 
 ## 📜 Vortexdata Certification
