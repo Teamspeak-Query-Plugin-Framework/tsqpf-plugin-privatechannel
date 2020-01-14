@@ -1,4 +1,4 @@
-package net.vortexdata.tsqpfp.privatechannel;
+package net.vortexdata.tsqpf_plugin_privatechannel;
 
 import net.vortexdata.tsqpf.plugins.*;
 

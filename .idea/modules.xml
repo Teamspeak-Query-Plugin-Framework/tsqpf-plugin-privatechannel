@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/tsqpf-plugin-privatechannel.iml" filepath="$PROJECT_DIR$/.idea/tsqpf-plugin-privatechannel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tsqpf-plugin-privatechannel.iml" filepath="$PROJECT_DIR$/tsqpf-plugin-privatechannel.iml" />
     </modules>
   </component>
 </project>

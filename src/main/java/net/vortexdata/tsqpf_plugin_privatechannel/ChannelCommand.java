@@ -1,4 +1,4 @@
-package net.vortexdata.tsqpfp.privatechannel;
+package net.vortexdata.tsqpf_plugin_privatechannel;
 
 import com.github.theholywaffle.teamspeak3.TS3Api;
 import com.github.theholywaffle.teamspeak3.api.ChannelProperty;
